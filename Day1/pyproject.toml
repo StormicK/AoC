@@ -1,16 +1,17 @@
 [tool.poetry]
 name = "day1"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+version = "1.0.0"
+description = "AdventOfCode - Day 1"
+authors = ["André Bruns <andre.bruns33@gmail.com>"]
 readme = "README.md"
+include = ["input.txt"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 
 
 [tool.poetry.scripts]
-bot = 'day1.puzzle:main'
+day1 = 'day1.puzzle:puzzle'
 
 [build-system]
 requires = ["poetry-core"]

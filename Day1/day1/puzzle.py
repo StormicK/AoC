@@ -1,4 +1,4 @@
-def main():
+def puzzle():
     sorted_calories = sorted([elve.sum() for elve in get_elves()])
     print(f'Answer 1: {sorted_calories[-1]}')
     print(f'Answer 2: {sum(sorted_calories[-3:])}')
@@ -30,4 +30,4 @@ class Elve:
 
 
 if __name__ == '__main__':
-    main()
+    puzzle()
